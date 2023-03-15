@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>シューティングゲーム</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    #score, #totalScore {
+      font-size: 24px;
+      color: #333;
+      margin: 16px;
+    }
+
+    #score {
+      float: left;
+    }
+
+    #totalScore {
+      float: right;
+    }
+
+    canvas {
+      border: 1px solid black;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="score">Score: 0</div>
+  <div id="totalScore">Total Score: 0</div>
+  <div id="time"></div>
+  <canvas id="gameCanvas" width="500" height="500"></canvas>
+  <script src="ver12.js"></script>
+</body>
+</html>
